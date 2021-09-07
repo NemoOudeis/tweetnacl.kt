@@ -1,6 +1,6 @@
-# TweetNacl in Java: port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js)
+# TweetNacl in Kotlin
 
-Based on [tweetnacl-java](https://github.com/InstantWebP2P/tweetnacl-java).
+Based on [tweetnacl-java](https://github.com/InstantWebP2P/tweetnacl-java), the java port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js).
 
 ## API/Usage
 
