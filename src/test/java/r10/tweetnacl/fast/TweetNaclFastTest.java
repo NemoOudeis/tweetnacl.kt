@@ -1,4 +1,4 @@
-package com.iwebpp.crypto;
+package r10.tweetnacl.fast;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -6,9 +6,9 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
 
-import com.iwebpp.crypto.TweetNaclFast;
+import r10.tweetnacl.Log;
+import r10.tweetnacl.fast.TweetNaclFast;
 import org.junit.Test;
 
 public final class TweetNaclFastTest {
@@ -53,7 +53,7 @@ public final class TweetNaclFastTest {
 	@Test
 	public void testBoxKalium() throws UnsupportedEncodingException {
 	
-		Log.d(TAG, "testBoxKalium: test vectors from Kalium project");                 
+		Log.d(TAG, "testBoxKalium: test vectors from Kalium project");
 
 		// explicit nonce
 		byte [] theNonce = TweetNaclFast.hexDecode(BOX_NONCE);

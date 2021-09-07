@@ -1,4 +1,4 @@
-package com.iwebpp.crypto;
+package r10.tweetnacl;
 
 public final class Log {
 

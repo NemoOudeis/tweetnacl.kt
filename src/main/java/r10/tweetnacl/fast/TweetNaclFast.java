@@ -1,7 +1,7 @@
 // Copyright (c) 2014-present Tom Zhou<appnet.link@gmail.com>
 
 
-package com.iwebpp.crypto;
+package r10.tweetnacl.fast;
 
 import java.io.UnsupportedEncodingException;
 import java.security.SecureRandom;
