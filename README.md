@@ -1,21 +1,10 @@
-TweetNacl in Java: port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js)
-====================================================================
+# TweetNacl in Java: port of [tweetnacl-js](https://github.com/dchest/tweetnacl-js)
 
-![Java CI](https://github.com/InstantWebP2P/tweetnacl-java/workflows/Java%20CI/badge.svg)
+Based on [tweetnacl-java](https://github.com/InstantWebP2P/tweetnacl-java).
 
-### Download
+## API/Usage
 
-#### Using Gradle
-
-```
-implementation "io.github.instantwebp2p:tweetnacl-java:1.1.2"
-```
-
-### API/Usage
-
-### Suggest always use [TweetNaclFast](https://github.com/InstantWebP2P/tweetnacl-java/blob/master/src/main/java/com/iwebpp/crypto/TweetNaclFast.java) implementation
-
-#### Public key authenticated encryption
+### Public key authenticated encryption
 
 ```kotlin
 // generate a fresh key pair 
@@ -43,7 +32,7 @@ val cipher: ByteArray? = box.box(message, nonce)
 val message: ByteArray? = box.open(cipher, nonce)
 ```
 
-#### Secret key authenticated encryption
+### Secret key authenticated encryption
 
 * get shared key: crypto random, what you have
 ```kotlin
